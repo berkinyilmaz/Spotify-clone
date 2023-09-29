@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.header__left {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    color: grey;
+    
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+.header__left > input  {
+    margin-left: 3px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #13141F;
+    padding-right: 10px;
+}
+
+.header__right > h4 {
+    margin-left: 10px;
+    
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
